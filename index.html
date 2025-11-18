@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime Visa Solutions</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header>
+<nav>
+<a href="home.html">Home</a> |
+<a href="services.html">Services</a> |
+<a href="index.html">Booking</a> |
+<a href="about.html">About</a> |
+<a href="contact.html">Contact</a> |
+<a href="admin.html">Admin</a>
+</nav>
+<h1>Prime Visa Solutions</h1>
+</header>
+<div class="container">
+<h2>Visa Booking Form</h2>
+<form action="/book" method="POST">
+<label>Full Name</label><input name="name" required>
+<label>Phone Number</label><input name="phone" required>
+<label>Select Country</label>
+<select name="country"><option>Spain</option><option>France</option><option>Canada</option><option>Germany</option></select>
+<label>Preferred Date</label><input type="date" name="date" required>
+<label>Notes</label><textarea name="notes"></textarea>
+<button type="submit">Submit Booking</button></form></div></body></html>
